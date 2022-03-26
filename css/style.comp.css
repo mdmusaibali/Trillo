@@ -28,9 +28,6 @@ html {
   @media only screen and (max-width: 68.75em) {
     html {
       font-size: 50%; } }
-  @media only screen and (max-width: 26.5625em) {
-    html {
-      font-size: 40%; } }
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -252,6 +249,9 @@ body {
         flex-direction: column;
         align-items: center;
         padding: 1.5rem; } }
+    @media only screen and (max-width: 26.5625em) {
+      .side-nav__link:link, .side-nav__link:visited {
+        padding: 1.5rem 0.6rem; } }
   .side-nav__icon {
     width: 1.75rem;
     height: 1.75rem;
